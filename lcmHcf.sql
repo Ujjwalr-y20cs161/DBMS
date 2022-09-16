@@ -18,5 +18,6 @@ while true loop
 		lcm := lcm + 1;
 	end if;
 end loop;
+dbms_output.put_line('HCF :'|| (num1*num2)/lcm);
 end;
 /
